@@ -1,10 +1,23 @@
 import { Link } from 'react-router-dom';
-import { Box, Flex } from '@radix-ui/themes';
 import { RxTextAlignRight, RxCross1 } from 'react-icons/rx';
 
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/components/shadcn/ui/alert-dialog';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/shadcn/ui/alert-dialog';
 
-import { NavigationMenu, NavigationMenuItem, NavigationMenuList, navigationMenuTriggerStyle } from '@/components/shadcn/ui/navigation-menu';
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuList,
+  navigationMenuTriggerStyle,
+} from '@/components/shadcn/ui/navigation-menu';
 
 const navItems = [
   { name: 'Home', href: '/' },
@@ -15,35 +28,35 @@ const navItems = [
 export const Nav = () => {
   return (
     <>
-      <Flex justify="between" align="center" py="4">
-        <Box>Harmonia</Box>
-        <Flex justify="end" className="sm:hidden w-3/4">
+      <div className='container flex justify-between items-center pt-8'>
+        <div>Logo</div>
+        <div className='flex justify-end sm:hidden w-3/4'>
           <AlertDialog>
             <AlertDialogTrigger>
-              <RxTextAlignRight size="28px" />
+              <RxTextAlignRight size='28px' />
             </AlertDialogTrigger>
-            <AlertDialogContent className="absolute top-1/4 left-2/3 -ml-4 -mt-20 w-72 rounded-md">
-              <Flex>
+            <AlertDialogContent className='absolute top-1/4 -mt-32 w-72 rounded-md'>
+              <div className='flex'>
                 <AlertDialogHeader>
-                  <AlertDialogTitle className="absolute top-0 right-0">
-                    <AlertDialogCancel className="focus-visible:ring-transparent p-0 mr-4">
-                      <RxCross1 size="18px" />
+                  <AlertDialogTitle className='absolute top-0 right-0'>
+                    <AlertDialogCancel className='focus-visible:ring-transparent p-0 mr-4'>
+                      <RxCross1 size='18px' />
                     </AlertDialogCancel>
                   </AlertDialogTitle>
                 </AlertDialogHeader>
-                <AlertDialogFooter className="-mt-4">
+                <AlertDialogFooter className='-mt-4'>
                   {navItems.map((item, index) => (
                     <Link to={item.href} key={index}>
-                      <AlertDialogAction className="p-0">{item.name}</AlertDialogAction>
+                      <AlertDialogAction className='p-0'>{item.name}</AlertDialogAction>
                     </Link>
                   ))}
                 </AlertDialogFooter>
-              </Flex>
+              </div>
             </AlertDialogContent>
           </AlertDialog>
-        </Flex>
+        </div>
 
-        <Flex justify="end" className="hidden sm:flex">
+        <div className='justify-end hidden sm:flex'>
           <NavigationMenu>
             <NavigationMenuList>
               {navItems.map((item, index) => (
@@ -55,8 +68,8 @@ export const Nav = () => {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-        </Flex>
-      </Flex>
+        </div>
+      </div>
     </>
   );
 };
