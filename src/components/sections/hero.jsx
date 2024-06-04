@@ -3,9 +3,9 @@ import { Button } from '@/components/shadcn/ui/button';
 export const Hero = () => {
   return (
     <>
-      <div className='py-10 sm:py-20'>
-        <div className='container flex justify-between py-8 '>
-          <div className='sm:w-8/12'>
+      <div className='container'>
+        <div className=' flex py-8 '>
+          <div className='sm:w-full'>
             <h1 className='sm:text-5xl text-3xl mb-4'>Empowering individuals and communities for a better world</h1>
             <p>
               Empowering individuals and communities for a better worldAt Harmonia, we believe in the power of
@@ -16,12 +16,12 @@ export const Hero = () => {
               <Button>Sign Up</Button>
             </div>
           </div>
-          <div className='hidden sm:block'>
-            <img src='https://placehold.co/400x400' alt='Hero' />
+          <div className='hidden sm:flex justify-end w-full pl-8'>
+            <img src='https://placehold.co/600x600' alt='Hero' />
           </div>
         </div>
         <div className='container sm:hidden'>
-          <img src='https://placehold.co/400x400' alt='Hero' />
+          <img src='https://placehold.co/600x600' alt='Hero' />
         </div>
       </div>
     </>

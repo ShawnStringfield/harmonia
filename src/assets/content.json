@@ -1,0 +1,66 @@
+{
+  "featured": [
+    {
+      "title": "Collaborate seamlessly with Harmonia's intuitive tools",
+      "description": "Harmonia provides a range of powerful collaboration tools to streamline your projects and enhance teamwork.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "https://www.google.com"
+    },
+    {
+      "title": "Unleash your creativity with Harmonia's versatile platform",
+      "description": "Harmonia's platform offers a wide array of features and customization options to help you bring your ideas to life.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "https://www.google.com"
+    },
+    {
+      "title": "Join a community of changemakers with Harmonia's platform",
+      "description": "Connect with like-minded individuals and be part of a global network working towards a better world.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "https://www.google.com"
+    }
+  ],
+  "values": [
+    {
+      "title": "Community Engagement",
+      "description": "Building strong, supportive communities through active participation and shared experiences.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Inclusivity",
+      "description": "Ensuring that our platforms are accessible and beneficial to people of all backgrounds and abilities.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Innovation",
+      "description": "Leveraging cutting-edge technology to solve social and environmental challenges.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Sustainability",
+      "description": "We are committed to sustainability and environmental responsibility in all aspects of our work and operations.",
+      "icon": "https://via.placeholder.com/300"
+    }
+  ],
+  "programs": [
+    {
+      "title": "Harmonia Academy",
+      "description": "A series of online courses and workshops designed to help you develop new skills and knowledge.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Harmonia Labs",
+      "description": "A collaborative space for experimentation and innovation, where you can work on projects with other members of the community.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Harmonia Grants",
+      "description": "Funding opportunities for projects that align with Harmonia's mission and values.",
+      "icon": "https://via.placeholder.com/300"
+    },
+    {
+      "title": "Harmonia Connect",
+      "description": "Online support groups for various community needs, including mental health, parenting, and environmental activism.",
+      "icon": "https://via.placeholder.com/300"
+    }
+  ]
+}

@@ -1,15 +1,18 @@
+import content from '../../assets/content.json';
+
 export const Feature = () => {
   return (
-    <div className='bg-gray-100'>
+    <section className='bg-gray-100 my-10'>
       <div className='container mx-auto py-20'>
-        <div className='flex flex-col items-center'>
-          <h1 className='text-4xl font-bold text-center text-gray-900'>Feature</h1>
-          <p className='mt-2 text-lg text-center text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, est nec congue lacinia, odio sem
-            venenatis mi, et consectetur nunc lorem sit amet nunc. Sed nec velit.
-          </p>
+        <div className='md:grid grid-cols-3 gap-8'>
+          {content.featured.map((item, index) => (
+            <div key={index} className='my-8'>
+              <h2 className='text-lg sm:text-2xl mb-4'>{item.title}</h2>
+              <p className=''>{item.description}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
