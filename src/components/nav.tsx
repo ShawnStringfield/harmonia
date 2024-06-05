@@ -28,14 +28,14 @@ const navItems = [
 export const Nav = () => {
   return (
     <>
-      <div className='container flex justify-between items-center pt-8'>
+      <div className='container flex justify-between items-center my-8 text-secondary'>
         <div>Logo</div>
         <div className='flex justify-end sm:hidden w-3/4'>
           <AlertDialog>
             <AlertDialogTrigger>
               <RxTextAlignRight size='28px' />
             </AlertDialogTrigger>
-            <AlertDialogContent className='absolute top-1/4 -mt-32 w-72 rounded-md'>
+            <AlertDialogContent className='container top-24 w-[400px] rounded-md'>
               <div className='flex'>
                 <AlertDialogHeader>
                   <AlertDialogTitle className='absolute top-0 right-0'>
@@ -47,7 +47,7 @@ export const Nav = () => {
                 <AlertDialogFooter className='-mt-4'>
                   {navItems.map((item, index) => (
                     <Link to={item.href} key={index}>
-                      <AlertDialogAction className='p-0'>{item.name}</AlertDialogAction>
+                      <AlertDialogAction className='p-0 text-lg'>{item.name}</AlertDialogAction>
                     </Link>
                   ))}
                 </AlertDialogFooter>

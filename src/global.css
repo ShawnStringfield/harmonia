@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 119, 35%, 28%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 122, 39%, 49%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 73, 86%, 36%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -72,7 +72,6 @@
 @layer base {
   html {
     font-family: 'Inter Variable', sans-serif;
-    font-size: 16px;
   }
   h1,
   h2,
@@ -81,8 +80,8 @@
   h5,
   h6 {
     font-family: 'Work Sans Variable', sans-serif;
-    letter-spacing: -0.02em;
     font-weight: 700;
+    @apply text-primary;
   }
   h1 {
     @apply text-4xl;
@@ -106,6 +105,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-slate-600;
+    font-size: 18px;
   }
 }

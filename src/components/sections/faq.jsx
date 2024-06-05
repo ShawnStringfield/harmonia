@@ -1,3 +1,6 @@
+import content from '../../assets/content.json';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/shadcn/ui/accordion';
+
 export const FAQ = () => {
   return (
     <section className='container mx-auto my-20'>
@@ -6,23 +9,28 @@ export const FAQ = () => {
         <p className='text-lg text-gray-600'>Here are some common questions we get asked.</p>
       </div>
 
-      <div className='sm:grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-center'>
-        <div className='border border-1 p-2 rounded-sm'>
-          <h3>What is your return policy?</h3>
-          <p className='text-gray-600 mt-2'>We offer a 30-day return policy on all products.</p>
-        </div>
-        <div className='border border-1 p-2 rounded-sm'>
-          <h3>Do you ship internationally?</h3>
-          <p className='text-gray-600 mt-2'>Yes, we ship to most countries around the world.</p>
-        </div>
-        <div className='border border-1 p-2 rounded-sm'>
-          <h3>How long does shipping take?</h3>
-          <p className='text-gray-600 mt-2'>Shipping times vary depending on your location.</p>
-        </div>
-        <div className='border border-1 p-2 rounded-sm'>
-          <h3>Can I cancel my order?</h3>
-          <p className='text-gray-600 mt-2'>You can cancel your order within 24 hours of placing it.</p>
-        </div>
+      <Accordion type='single' collapsible className='w-full'>
+        {content.faq.map((item, index) => (
+          <AccordionItem key={index} value={`item-${index}`}>
+            <AccordionTrigger className='text-lg font-bold'>{item.question}</AccordionTrigger>
+            <AccordionContent className='text-base'>
+              <div>
+                <p className='mb-4'>{item.answer}</p>
+              </div>
+              <ul className='list-decimal pl-5'>
+                {item.subanswers && item.subanswers.map((subanswer, subindex) => <li key={subindex}>{subanswer}</li>)}
+              </ul>
+            </AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+
+      <div className='mt-16'>
+        <p>
+          By providing these answers, we hope to make it easier for you to understand our mission, get involved, and
+          make a difference in your community and the environment. If you have any other questions, please don’t
+          hesitate to reach out to us!
+        </p>
       </div>
     </section>
   );

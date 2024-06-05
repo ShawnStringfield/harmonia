@@ -1,21 +1,21 @@
 {
   "featured": [
     {
-      "title": "Collaborate seamlessly with Harmonia's intuitive tools",
-      "description": "Harmonia provides a range of powerful collaboration tools to streamline your projects and enhance teamwork.",
-      "icon": "https://via.placeholder.com/300",
+      "title": "Educational Impact",
+      "description": "Increase digital literacy and technological empowerment, particularly in underserved populations.",
+      "icon": "ImBooks",
       "link": "https://www.google.com"
     },
     {
-      "title": "Unleash your creativity with Harmonia's versatile platform",
-      "description": "Harmonia's platform offers a wide array of features and customization options to help you bring your ideas to life.",
-      "icon": "https://via.placeholder.com/300",
+      "title": "Environmental Impact",
+      "description": "Reduce carbon footprints and promote sustainable practices within communities through education and direct action.",
+      "icon": "FcLandscape",
       "link": "https://www.google.com"
     },
     {
-      "title": "Join a community of changemakers with Harmonia's platform",
-      "description": "Connect with like-minded individuals and be part of a global network working towards a better world.",
-      "icon": "https://via.placeholder.com/300",
+      "title": "Social Impact",
+      "description": "Strengthen community bonds and support systems by providing platforms for collaboration and mutual aid.",
+      "icon": "IoPeopleCircle",
       "link": "https://www.google.com"
     }
   ],
@@ -61,6 +61,58 @@
       "title": "Harmonia Connect",
       "description": "Online support groups for various community needs, including mental health, parenting, and environmental activism.",
       "icon": "https://via.placeholder.com/300"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Harmonia Connect?",
+      "answer": "Harmonia Connect is a nonprofit organization dedicated to using technology to foster community well-being and environmental stewardship. We create digital platforms and programs that empower individuals and communities to connect, collaborate, and create sustainable solutions for a better world.."
+    },
+    {
+      "question": "How can I get involved with Harmonia Connect?",
+      "answer": "There are several ways to get involved with Harmonia Connect:",
+      "subanswers": [
+        "Volunteer: Join our various programs and initiatives as a volunteer.",
+        "Donate: Support our mission through financial contributions.",
+        "Participate: Take part in our workshops, support circles, and community projects.",
+        "Partner: Businesses and organizations can collaborate with us on projects and sponsorships."
+      ]
+    },
+    {
+      "question": "What types of programs does Harmonia Connect offer?",
+      "answer": "We offer a variety of programs aimed at promoting community and environmental health, including:",
+      "subanswers": [
+        "Digital Literacy Workshops: Increases digital literacy in underserved communities.",
+        "Community Gardens Network: Supports the establishment and maintenance of community gardens.",
+        "Youth Leadership Program: Empowers young people to lead community initiatives.",
+        "Virtual Support Circles: Provides online support for mental health, parenting, and activism."
+      ]
+    },
+    {
+      "question": "How do I join the EcoConnect Platform?",
+      "answer": "You can join the EcoConnect Platform by visiting our website and creating an account. Once registered, you can explore local environmental projects, sign up as a volunteer, and share resources with others in your community."
+    },
+    {
+      "question": "How can I apply for a Harmonia Grant?",
+      "answer": "To apply for a Harmonia Grant, you must submit a project proposal that aligns with our mission and values. The proposal should include a detailed description of the project, its goals, and its potential impact. Our selection committee will review all proposals and select projects that best meet our criteria."
+    },
+    {
+      "question": "What is the Harmonia Academy?",
+      "answer": "The Harmonia Academy is an online learning platform that offers a range of courses and workshops on topics related to community well-being and environmental sustainability. Our courses are designed to help individuals develop new skills, deepen their knowledge, and connect with like-minded changemakers."
+    },
+    {
+      "question": "How are donations used by Harmonia Connect?",
+      "answer": "Donations are crucial for the sustainability of our programs and initiatives. They help us:",
+      "subanswers": [
+        "Develop and maintain our digital platforms.",
+        "Fund community projects and workshops.",
+        "Support our team of volunteers and facilitators.",
+        "Expand our reach to more communities in need."
+      ]
+    },
+    {
+      "question": "How can I contact Harmonia Connect for more information?",
+      "answer": "You can contact us via email at info@harmoniaconnect.org, call us at +1 (555) 123-4567, or visit our office at 123 Harmony Lane, Green City, Earth 12345. You can also find more information and get in touch through our website, www.harmoniaconnect.org."
     }
   ]
 }
