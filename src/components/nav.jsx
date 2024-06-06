@@ -24,8 +24,12 @@ export const Nav = () => {
   return (
     <>
       <div className='nav container flex justify-between items-center mt-8 mb-16'>
-        <div>Logo</div>
-        <div className='flex justify-end sm:hidden w-3/4'>
+        <div>
+          <h1 className='text-xl'>
+            Harmonia <span className='text-secondary'>Connect</span>
+          </h1>
+        </div>
+        <div className='flex justify-end sm:hidden w-2/4'>
           <AlertDialog>
             <AlertDialogTrigger>
               <RxTextAlignRight size='28px' />
