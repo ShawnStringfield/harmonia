@@ -8,7 +8,7 @@
     },
     {
       "title": "Environmental Impact",
-      "description": "Reduce carbon footprints and promote sustainable practices within communities through education and direct action.",
+      "description": "Reduce carbon footprints and promote sustainable practices within communities through education.",
       "icon": "FcLandscape",
       "link": "https://www.google.com"
     },
@@ -41,26 +41,113 @@
       "icon": "https://via.placeholder.com/300"
     }
   ],
-  "programs": [
+  "services": [
     {
       "title": "Harmonia Academy",
-      "description": "A series of online courses and workshops designed to help you develop new skills and knowledge.",
-      "icon": "https://via.placeholder.com/300"
+      "description": "A series of online workshops designed to help you develop new skills and knowledge.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "/services"
     },
     {
       "title": "Harmonia Labs",
-      "description": "A collaborative space for experimentation and innovation, where you can work on projects with other members of the community.",
-      "icon": "https://via.placeholder.com/300"
+      "description": "A collaborative space for experimentation, innovation, and community collaboration.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "/services"
     },
     {
       "title": "Harmonia Grants",
       "description": "Funding opportunities for projects that align with Harmonia's mission and values.",
-      "icon": "https://via.placeholder.com/300"
+      "icon": "https://via.placeholder.com/300",
+      "link": "/services"
     },
     {
       "title": "Harmonia Connect",
-      "description": "Online support groups for various community needs, including mental health, parenting, and environmental activism.",
-      "icon": "https://via.placeholder.com/300"
+      "description": "Online support groups for various community needs, including environmental activism.",
+      "icon": "https://via.placeholder.com/300",
+      "link": "/services"
+    }
+  ],
+  "services_page": [
+    {
+      "classes": "",
+      "title": "Harmonia Academy",
+      "description": "At Harmonia Academy, we offer comprehensive educational programs designed to bridge the digital divide and empower individuals with essential skills for the modern world. Our free, accessible workshops and training sessions ensure that everyone can confidently navigate and benefit from the digital landscape.",
+      "image": "/services_academy.png",
+      "icon": "ImBooks",
+      "subheading": "Topics Covered",
+      "bullet": [
+        {
+          "bulletheading": "Basic Computer Skills",
+          "bullet": "Learn to use computers, operating systems, and essential software."
+        },
+        {
+          "bulletheading": "Internet Safety",
+          "bullet": "Understand best practices for protecting personal information online."
+        },
+        {
+          "bulletheading": "Tech for Activism",
+          "bullet": "Discover how to leverage digital tools for social and environmental advocacy."
+        }
+      ]
+    },
+    {
+      "title": "Harmonia Labs",
+      "description": "Harmonia Labs is our innovative hub where technology meets sustainability. We develop cutting-edge solutions and digital platforms that support environmental projects and community initiatives, driving meaningful change through technology.",
+      "image": "/services_academy.png",
+      "icon": "FaLaptop",
+      "subheading": "Key Innovations",
+      "bullet": [
+        {
+          "bulletheading": "EcoConnect Platform",
+          "bullet": "A digital space that connects communities with local environmental projects, facilitating volunteer sign-ups, resource sharing, and impact tracking."
+        },
+        {
+          "bulletheading": "Sustainable Tech Solutions",
+          "bullet": "Development of tools and applications that promote eco-friendly practices and sustainable living."
+        }
+      ]
+    },
+    {
+      "title": "Harmonia Grants",
+      "description": "Harmonia Grants provide financial support to individuals and organizations working on impactful environmental and community projects. We aim to fuel innovation and sustainability by funding initiatives that align with our mission of fostering community well-being and environmental stewardship.",
+      "image": "/services_academy.png",
+      "icon": "FcMoneyTransfer",
+      "subheading": "Grant Programs",
+      "bullet": [
+        {
+          "bulletheading": "Environmental Innovation Grants",
+          "bullet": "Funding for projects that develop new solutions to environmental challenges."
+        },
+        {
+          "bulletheading": "Community Impact Grants",
+          "bullet": "Support for initiatives that enhance community cohesion and well-being through sustainable practices."
+        }
+      ]
+    },
+    {
+      "title": "Harmonia Connect",
+      "description": "Harmonia Connect is our cornerstone service, a digital hub that brings together individuals, communities, and organizations dedicated to creating a sustainable future. Through this platform, we facilitate connections, collaborations, and resource-sharing to amplify collective impact.",
+      "image": "/services_academy.png",
+      "icon": "IoIosPeople",
+      "subheading": "Platform Features",
+      "bullet": [
+        {
+          "bulletheading": "Project Listings",
+          "bullet": "Discover a wide range of environmental and community projects in your area."
+        },
+        {
+          "bulletheading": "Volunteer Sign-Ups",
+          "bullet": "Easily join initiatives that match your interests and availability."
+        },
+        {
+          "bulletheading": "Resource Sharing",
+          "bullet": "Access and contribute resources and tools to support various projects."
+        },
+        {
+          "bulletheading": "Impact Tracking",
+          "bullet": "Monitor the progress and outcomes of the projects you support."
+        }
+      ]
     }
   ],
   "faq": [

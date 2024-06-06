@@ -20,7 +20,7 @@ const getIcon = (icon) => {
 export const Feature = () => {
   return (
     <section className='my-20 text-center border-slate border-t-[1px] border-b-[1px]'>
-      <div className='container mx-auto py-20'>
+      <div className='container mx-auto py-10'>
         <div className='md:grid grid-cols-3 gap-8'>
           {content.featured.map((item, index) => (
             <div key={index} className='my-8'>

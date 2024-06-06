@@ -22,20 +22,21 @@ import {
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
   { name: 'Contact', href: '/contact' },
 ];
 
 export const Nav = () => {
   return (
     <>
-      <div className='container flex justify-between items-center my-8 text-secondary'>
+      <div className='container flex justify-between items-center mt-8 mb-16 text-secondary'>
         <div>Logo</div>
         <div className='flex justify-end sm:hidden w-3/4'>
           <AlertDialog>
             <AlertDialogTrigger>
               <RxTextAlignRight size='28px' />
             </AlertDialogTrigger>
-            <AlertDialogContent className='container top-24 w-[400px] rounded-md'>
+            <AlertDialogContent className='container top-32 w-[400px] rounded-md'>
               <div className='flex'>
                 <AlertDialogHeader>
                   <AlertDialogTitle className='absolute top-0 right-0'>
@@ -44,10 +45,10 @@ export const Nav = () => {
                     </AlertDialogCancel>
                   </AlertDialogTitle>
                 </AlertDialogHeader>
-                <AlertDialogFooter className='-mt-4'>
+                <AlertDialogFooter className='flex flex-col'>
                   {navItems.map((item, index) => (
                     <Link to={item.href} key={index}>
-                      <AlertDialogAction className='p-0 text-lg'>{item.name}</AlertDialogAction>
+                      <AlertDialogAction className='text-lg'>{item.name}</AlertDialogAction>
                     </Link>
                   ))}
                 </AlertDialogFooter>
@@ -62,7 +63,7 @@ export const Nav = () => {
               {navItems.map((item, index) => (
                 <NavigationMenuItem key={index}>
                   <Link to={item.href}>
-                    <span className={navigationMenuTriggerStyle()}>{item.name}</span>
+                    <span className={`hover:text-white ${navigationMenuTriggerStyle()}`}>{item.name}</span>
                   </Link>
                 </NavigationMenuItem>
               ))}
