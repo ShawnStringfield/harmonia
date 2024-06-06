@@ -1,5 +1,6 @@
 import heroBG from '@/assets/hero5_bg.png';
 import { Button } from '@/components/shadcn/ui/button';
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
@@ -16,10 +17,14 @@ export const Hero = () => {
               connection, collaboration, and sustainable solutions. Join us in creating a better world together.
             </p>
             <div className='flex justify-center gap-4 mt-8'>
-              <Button variant='secondary' className='text-white'>
-                Learn More
-              </Button>
-              <Button>Sign Up</Button>
+              <Link to='/about'>
+                <Button variant='secondary' className='text-white hover:bg-primary'>
+                  Learn More
+                </Button>
+              </Link>
+              <Link to='/contact'>
+                <Button className='hover:bg-secondary'>Become a Member</Button>
+              </Link>
             </div>
           </div>
           <div className='hidden md:flex justify-end align-middle h-full'>
