@@ -13,7 +13,7 @@ export const Services = () => {
       <div className='sm:grid sm:grid-cols-2 md:grid-cols-2 gap-8 text-center md:mx-20'>
         {content.services.map((program, index) => (
           <div key={index} className='mb-8 sm:mb-0 p-8 rounded-md bg-white border'>
-            <h3>{program.title}</h3>
+            <h4>{program.title}</h4>
             <p>{program.description}</p>
             <Link to={program.link}>
               <Button className='mt-4 text-white hover:bg-primary' variant='secondary'>

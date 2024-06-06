@@ -46,30 +46,30 @@
       "title": "Harmonia Academy",
       "description": "A series of online workshops designed to help you develop new skills and knowledge.",
       "icon": "https://via.placeholder.com/300",
-      "link": "/services"
+      "link": "/services#academy"
     },
     {
       "title": "Harmonia Labs",
       "description": "A collaborative space for experimentation, innovation, and community collaboration.",
       "icon": "https://via.placeholder.com/300",
-      "link": "/services"
+      "link": "/services#labs"
     },
     {
       "title": "Harmonia Grants",
       "description": "Funding opportunities for projects that align with Harmonia's mission and values.",
       "icon": "https://via.placeholder.com/300",
-      "link": "/services"
+      "link": "/services#grants"
     },
     {
       "title": "Harmonia Connect",
       "description": "Online support groups for various community needs, including environmental activism.",
       "icon": "https://via.placeholder.com/300",
-      "link": "/services"
+      "link": "/services#connect"
     }
   ],
   "services_page": [
     {
-      "classes": "",
+      "id": "academy",
       "title": "Harmonia Academy",
       "description": "At Harmonia Academy, we offer comprehensive educational programs designed to bridge the digital divide and empower individuals with essential skills for the modern world. Our free, accessible workshops and training sessions ensure that everyone can confidently navigate and benefit from the digital landscape.",
       "image": "/services_academy.png",
@@ -91,6 +91,7 @@
       ]
     },
     {
+      "id": "labs",
       "title": "Harmonia Labs",
       "description": "Harmonia Labs is our innovative hub where technology meets sustainability. We develop cutting-edge solutions and digital platforms that support environmental projects and community initiatives, driving meaningful change through technology.",
       "image": "/services_academy.png",
@@ -108,6 +109,7 @@
       ]
     },
     {
+      "id": "grants",
       "title": "Harmonia Grants",
       "description": "Harmonia Grants provide financial support to individuals and organizations working on impactful environmental and community projects. We aim to fuel innovation and sustainability by funding initiatives that align with our mission of fostering community well-being and environmental stewardship.",
       "image": "/services_academy.png",
@@ -125,6 +127,7 @@
       ]
     },
     {
+      "id": "connect",
       "title": "Harmonia Connect",
       "description": "Harmonia Connect is our cornerstone service, a digital hub that brings together individuals, communities, and organizations dedicated to creating a sustainable future. Through this platform, we facilitate connections, collaborations, and resource-sharing to amplify collective impact.",
       "image": "/services_academy.png",
@@ -200,6 +203,36 @@
     {
       "question": "How can I contact Harmonia Connect for more information?",
       "answer": "You can contact us via email at info@harmoniaconnect.org, call us at +1 (555) 123-4567, or visit our office at 123 Harmony Lane, Green City, Earth 12345. You can also find more information and get in touch through our website, www.harmoniaconnect.org."
+    }
+  ],
+  "app_process": [
+    {
+      "title": "Submit Your Application",
+      "steps": [
+        "Complete the contact form with your personal information and a brief statement outlining your interest in joining Harmonia Connect.",
+        "Provide details about your background, relevant experience, and how you envision contributing to our mission."
+      ]
+    },
+    {
+      "title": "Application Review",
+      "steps": [
+        "Our membership committee will carefully review your application to ensure alignment with our values and goals",
+        "We may request additional information or an interview to better understand your interest and qualifications."
+      ]
+    },
+    {
+      "title": "Decision Notification",
+      "steps": [
+        "You will be notified of our decision via email within 2-4 weeks of your application submission.",
+        "If selected, you will receive further instructions on how to complete your membership registration."
+      ]
+    },
+    {
+      "title": "Membership Onboarding",
+      "steps": [
+        "New members will receive access to our platforms, resources, and community events.",
+        "You will also be invited to participate in an orientation session to learn more about our initiatives and how you can get involved."
+      ]
     }
   ]
 }

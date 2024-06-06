@@ -83,6 +83,14 @@
       font-weight: 700;
       @apply text-primary tracking-tight;
     }
+
+    a {
+      @apply text-blue-400;
+    }
+
+    .nav a {
+      @apply text-secondary;
+    }
   }
   h1 {
     @apply text-5xl;

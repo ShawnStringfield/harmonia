@@ -1,3 +1,4 @@
+import { navLinks } from '../config/navLinks';
 import { Link } from 'react-router-dom';
 import { RxTextAlignRight, RxCross1 } from 'react-icons/rx';
 
@@ -19,17 +20,10 @@ import {
   navigationMenuTriggerStyle,
 } from '@/components/shadcn/ui/navigation-menu';
 
-const navItems = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Services', href: '/services' },
-  { name: 'Contact', href: '/contact' },
-];
-
 export const Nav = () => {
   return (
     <>
-      <div className='container flex justify-between items-center mt-8 mb-16 text-secondary'>
+      <div className='nav container flex justify-between items-center mt-8 mb-16'>
         <div>Logo</div>
         <div className='flex justify-end sm:hidden w-3/4'>
           <AlertDialog>
@@ -46,7 +40,7 @@ export const Nav = () => {
                   </AlertDialogTitle>
                 </AlertDialogHeader>
                 <AlertDialogFooter className='flex flex-col'>
-                  {navItems.map((item, index) => (
+                  {navLinks.map((item, index) => (
                     <Link to={item.href} key={index}>
                       <AlertDialogAction className='text-lg'>{item.name}</AlertDialogAction>
                     </Link>
@@ -60,7 +54,7 @@ export const Nav = () => {
         <div className='justify-end hidden sm:flex'>
           <NavigationMenu>
             <NavigationMenuList>
-              {navItems.map((item, index) => (
+              {navLinks.map((item, index) => (
                 <NavigationMenuItem key={index}>
                   <Link to={item.href}>
                     <span className={`hover:text-white ${navigationMenuTriggerStyle()}`}>{item.name}</span>

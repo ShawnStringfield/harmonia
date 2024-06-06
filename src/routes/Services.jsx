@@ -29,9 +29,10 @@ export default function Services() {
           </div>
         </section>
 
-        <section className=''>
+        <section>
           {content.services_page.map((section, index) => (
             <section
+              id={section.id}
               key={index}
               className={`container mx-auto sm:px-16 sm:flex gap-24 py-16 border-t-[1px] ${section.classes}`}
             >
@@ -41,7 +42,7 @@ export default function Services() {
               </div>
 
               <div className='md:w-1/2'>
-                <h3 className=''>{section.subheading}</h3>
+                <h3>{section.subheading}</h3>
                 {section.bullet.map((item, index) => (
                   <div key={index} className='mt-8'>
                     <strong>{item.bulletheading}:</strong> {item.description}
