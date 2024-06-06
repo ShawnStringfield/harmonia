@@ -55,9 +55,9 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url("assets/hero_bg.png")',
-        hero2: 'url("assets/hero_bg3.png")',
+        hero2: 'url("assets/hero_bg3.jpg")',
         heroabout: 'url("assets/hero_about.png")',
-        footer: 'url("assets/footer_bg.png")',
+        footer: 'url("assets/footer_bg.jpg")',
       },
       borderRadius: {
         lg: 'var(--radius)',

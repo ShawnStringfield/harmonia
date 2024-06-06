@@ -25,9 +25,11 @@ export const Nav = () => {
     <>
       <div className='nav container flex justify-between items-center mt-8 mb-16'>
         <div>
-          <h1 className='text-xl'>
-            Harmonia <span className='text-secondary'>Connect</span>
-          </h1>
+          <Link to='/'>
+            <h1 className='text-xl'>
+              Harmonia <span className='text-secondary'>Connect</span>
+            </h1>
+          </Link>
         </div>
         <div className='flex justify-end sm:hidden w-2/4'>
           <AlertDialog>

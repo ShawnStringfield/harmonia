@@ -1,4 +1,4 @@
-import heroBG from '@/assets/hero5_bg.png';
+import heroBG from '@/assets/hero5_bg.jpg';
 import { Button } from '@/components/shadcn/ui/button';
 import { Link } from 'react-router-dom';
 
